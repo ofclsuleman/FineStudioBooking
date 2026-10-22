@@ -1,0 +1,29 @@
+FINE STUDIO BOOKING MANAGEMENT — PROJECT LICENSE
+
+Copyright (c) 2026 Fine Software Hub. All rights reserved.
+
+NOTICE
+This license text is a simple project-specific usage notice, not legal advice.
+
+PERMISSION
+The recipient may download, install, and use this copy of the software for their own internal or business use, and may make a reasonable number of backup copies for that purpose.
+
+RESTRICTIONS
+Unless the copyright holder gives prior written permission, the recipient may not:
+- sell, sublicense, rent, or commercially redistribute the software as a standalone product;
+- publish or redistribute modified or unmodified copies of the source code or package;
+- remove copyright or attribution notices;
+- claim authorship of the original software.
+
+NO WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+
+DATA RESPONSIBILITY
+The user is responsible for protecting, backing up, and lawfully handling any booking, customer, or account data stored by the application.
+
+CONTACT
+Fine Software Hub
+Email: ofclsuleman@gmail.com
+GitHub: https://github.com/ofclsuleman
+
+If you are not the copyright holder or are preparing this package for someone else, confirm the owner and replace this notice before distributing it. This notice has not been reviewed by a lawyer.
