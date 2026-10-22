@@ -1,53 +1,68 @@
-## FINE STUDIO BOOKING MANAGEMENT
-================================
+# Fine Studio Booking Management
 
-## ABOUT
-Fine Studio Booking Management is a Windows desktop booking-management app built with PowerShell and Windows Presentation Foundation (WPF).
+Fine Studio Booking Management is a Windows desktop application that helps you manage studio bookings through a simple interface.
 
-## PROJECT CONTENTS
-- FineStudioBooking.ps1     Main application script
-- Run Fine Studio.bat       Recommended launcher (starts PowerShell in STA mode)
-- README.txt                Setup and usage notes
-- LICENSE.txt               Project usage and redistribution terms
-- CHANGELOG.md              Summary of this packaged build
-- SUPPORT.txt               Troubleshooting and support notes
-- .gitignore                Suggested exclusions for version control
-- data\                    Local application data folder
+## Installation
 
-## REQUIREMENTS
+1. Download the installer provided by the publisher.
+2. Double-click the installer file.
+3. Follow the installation wizard and click **Finish**.
+4. Open **Fine Studio Booking** from the Desktop shortcut or Windows Start menu, if available.
+5. If no shortcut was created, open the installation folder and double-click `FineStudioBooking.exe`.
+
+**Note:** Only install software from a source you trust.
+
+## How to Use the Application
+
+### 1. Create an Account
+- Open the application.
+- Select **Sign Up** if you do not already have an account.
+- Enter the requested account and studio details.
+- Create your password.
+
+### 2. Sign In
+- Enter your account credentials.
+- Click **Sign In** to access the application.
+
+### 3. Manage Bookings
+From the dashboard, you can access booking features such as:
+
+- Create a new booking.
+- View all bookings.
+- Search bookings by booking ID or client name.
+- Edit an existing booking.
+- Delete a booking when necessary.
+
+Available features may depend on your installed version.
+
+## Data and Backups
+
+- Booking and account information may be stored locally on your computer.
+- Back up the application's `data` folder if it exists.
+- Keep backups in a secure, private location.
+- Do not delete application data unless you understand the consequences and have a backup.
+- Never upload real customer records, passwords, or private booking data to a public GitHub repository.
+
+## Troubleshooting
+
+**Application does not open**
+- Try launching `FineStudioBooking.exe` again.
+- Check whether Windows has displayed a security warning.
+- If an error appears, record the complete error message.
+
+**Unable to sign in**
+- Verify that you are using the correct account credentials.
+- If password recovery is unavailable, contact the application administrator.
+
+**Bookings are missing**
+- Confirm that you are opening the correct installed copy.
+- Check whether the application's local data folder has been moved or deleted.
+
+## System Requirements
+
 - Windows 10 or Windows 11
-- Windows PowerShell 5.1
-- Windows desktop/WPF components available on the PC
-- No separately installed PowerShell modules are expected to be required
+- A compatible Windows desktop environment
 
-## START THE APP
-1. Extract the complete FineStudioBooking_Project folder to a normal, writable location, such as Documents.
-2. Keep the script, launcher, and data folder together.
-3. Double-click "Run Fine Studio.bat".
-4. If Windows displays a security prompt, verify that you trust the source before allowing it to run.
+## Support
 
-## ALTERNATIVE STARTUP
-Open Windows PowerShell in this folder and run:
-  powershell.exe -NoProfile -ExecutionPolicy Bypass -STA -File ".\FineStudioBooking.ps1"
-
-## DATA AND BACKUPS
-- The application stores local data in the data folder. JSON files may be created there when the app is used.
-- Keep the data folder in the same project folder so the app can find its data.
-- Back up the entire data folder regularly, especially before replacing the application script.
-- Treat the data folder as private: it may contain booking and account information. Do not upload or share it publicly.
-- Do not delete or replace data files unless you have a backup and understand the consequences.
-
-## OPTIONAL LOGO
-An optional file named logo.png can be placed beside FineStudioBooking.ps1 if the application supports and detects it in this build.
-
-## TROUBLESHOOTING
-- If the app does not open, run it using the BAT launcher so any PowerShell error remains visible.
-- If an error appears, copy the complete error text, including the line number, and keep a copy of the exact FineStudioBooking.ps1 file you ran.
-- If the app behaves unexpectedly after an update, close it, back up data, and confirm you are running the script from the newly extracted folder rather than an older copy.
-- Do not assume a build is fully runtime-tested just because it opens or its XAML parses. Verify booking creation, editing, saving, theme switching, and dialogs on the target PC.
-
-## LIMITATIONS
-This package was prepared in a non-Windows environment. The application has not been executed here on Windows, so compatibility and runtime behavior should be checked on the target machine.
-
-## VERSIONING
-See CHANGELOG.md for notes about this packaged build. No formal semantic version has been assigned.
+For assistance, contact the person who provided the application installer. Include your Windows version and any error message you receive.
